@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 16
+names: ['grab', 'move back', 'move forward', 'move left', 'move right', 'numbereight', 'numberfive', 'numberfour', 'numbernine', 'numberone', 'numberseven', 'numbersix', 'numberten', 'numberthree', 'numbertwo', 'release']
+
+roboflow:
+  workspace: hayden-vw7rb
+  project: hand-gesture-detection-eo1i6
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hayden-vw7rb/hand-gesture-detection-eo1i6/dataset/6
